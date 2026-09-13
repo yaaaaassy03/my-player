@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Player 🎵</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #121212;
+            color: white;
+        }
+
+        header {
+            padding: 25px 20px;
+            background: #181818;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        header p {
+            color: #aaa;
+            margin-bottom: 0;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .player {
+            background: #1e1e1e;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .cover {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            background: #292929;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .artist {
+            color: #aaa;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+
+        audio,
+        video {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .section {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            margin-top: 0;
+        }
+
+        .song {
+            padding: 15px;
+            background: #292929;
+            border-radius: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .song:hover {
+            background: #333;
+        }
+
+        footer {
+            text-align: center;
+            color: #777;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🎵 My Personal Player</h1>
+        <p>My music • My videos • My space</p>
+    </header>
+
+    <div class="container">
+
+        <!-- MUSIC PLAYER -->
+        <div class="player">
+
+            <div class="cover">
+                🎵
+            </div>
+
+            <div class="title">
+                My First Song
+            </div>
+
+            <div class="artist">
+                My Playlist
+            </div>
+
+            <!-- Music will go here later -->
+            <audio controls>
+                Your browser does not support audio.
+            </audio>
+
+        </div>
+
+
+        <!-- PLAYLIST -->
+        <div class="section">
+
+            <h2>🎧 My Playlist</h2>
+
+            <div class="song">
+                🎵 Song 1
+            </div>
+
+            <div class="song">
+                🎵 Song 2
+            </div>
+
+            <div class="song">
+                🎵 Song 3
+            </div>
+
+        </div>
+
+
+        <!-- VIDEO -->
+        <div class="section">
+
+            <h2>🎬 My Videos</h2>
+
+            <video controls>
+                Your browser does not support video.
+            </video>
+
+        </div>
+
+    </div>
+
+    <footer>
+        Made with ❤️ using GitHub Pages
+    </footer>
+
+</body>
+</html>
